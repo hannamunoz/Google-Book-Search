@@ -17,7 +17,7 @@ class Saved extends Component {
     }
 
     deleteGoogleBook = currentBook => {
-        API.deleteGoogleBook( currentBook.id )
+        API.deleteBook( currentBook.id )
         .then(res => {
             console.log("This book was deleted", res);
             this.getBooks();
