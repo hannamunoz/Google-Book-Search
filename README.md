@@ -1,29 +1,54 @@
-# Create React Express App
+![Google Book Search](./client/public/icons/screenshot.png)
 
-## About This Boilerplate
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+# Google Book Search
+[![GitHub License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+---------------
 
-## Starting the app locally
+## *Table of Contents*
+- [Description](#description)
+- [Installation](#installation)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [Author](#author)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+---------------
 
-```
-npm install
-```
+## *Description*
+This application is designed to help allow a user to easily search for their desired book. This application uses the MERN stack as well as the Google Books API. The application renders the results in the UI and the user can save or delete books as they please.
 
-This should install node modules within the server and the client folder.
+View the live application here: [Google-Book-Search](https://young-tundra-27986.herokuapp.com/)
 
-After both installations complete, run the following command in your terminal:
+---------------
 
-```
-npm start
-```
+## *Installation*
+ - npm install
+ - npm start
+ - localhost:3000
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+---------------
 
-## Deployment (Heroku)
+## *Technologies*
+- React JS
+- MongoDB
+- Mongoose
+- Express JS
+- Axios
+- Node
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+---------------
+
+## *Contributing*
+Please use a new branch before contributing
+
+---------------
+
+## *Author*
+- Hanna Munoz
+- [Github](https://github.com/hannamunoz)
+- [LinkedIn](https://www.linkedin.com/in/hanna-munoz-179993b2/)
+
+---------------
+
+This project is MIT licensed
